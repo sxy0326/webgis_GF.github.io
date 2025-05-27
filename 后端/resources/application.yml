@@ -1,0 +1,31 @@
+
+
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy=ant-path-matcher:
+  application:
+    name: year
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/designtest
+    username: postgres
+    password: 123456
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false   #关闭驼峰转下划线
+  global-config:
+    db-config:
+      update-strategy: ignored    #null也会更新
+server:
+  port: 9999
+
+#datagaea:
+#  geoserver:
+#      endpoint: http://localhost:8080/geoserver
+#      username: admin
+#      password: geoserver
+#      orkspacename: datagaea
+
