@@ -1,19 +1,2 @@
-# year_design
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 项目介绍
+本项目是基于webGIS的高分遥感的管理系统，主要有大数据界面的可视化，数据的统计分析，数据的存储等方面。
