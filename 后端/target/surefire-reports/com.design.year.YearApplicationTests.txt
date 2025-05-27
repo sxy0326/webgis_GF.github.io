@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.design.year.YearApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.853 s <<< FAILURE! - in com.design.year.YearApplicationTests
+test1  Time elapsed: 0.02 s  <<< ERROR!
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 34
+	at com.design.year.YearApplicationTests.test1(YearApplicationTests.java:46)
+Caused by: org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 34
+	at com.design.year.YearApplicationTests.test1(YearApplicationTests.java:46)
+
